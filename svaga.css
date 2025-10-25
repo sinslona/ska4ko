@@ -1,0 +1,112 @@
+h1{
+    text-align: center;
+    margin: 10;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    height: 50px;
+    display: inline;
+    border-radius: 5px;
+    color: white;
+     background: linear-gradient(135deg, #6195af, #3f70a3, #5874a7);
+}
+.svagameter{
+text-align: center;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    position: relative; /* нужно для ::before */
+    overflow: hidden;
+      background-color: #0b132b; /* тёмно-синий базовый цвет */
+  background-image: 
+    linear-gradient(135deg, rgba(255,255,255,0.05) 20%, transparent 20%),
+    linear-gradient(225deg, rgba(255,255,255,0.05) 20%, transparent 20%),
+    linear-gradient(45deg, rgba(255, 255, 255, 0.05) 20%, transparent 20%),
+    linear-gradient(315deg, rgba(255,255,255,0.05) 20%, transparent 20%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 20px 20px;
+  background-repeat: repeat;
+  color: #ffffff;
+}
+
+
+
+ы
+.block{ 
+text-align: left;
+}
+.text{
+text-align: left;
+}
+
+.ym{
+margin: 10;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    height: 50px;
+    background: linear-gradient(270deg,#c4ce33a1, #0a2bc088);
+    display: inline;
+    border-radius: 5px;
+    color: white;
+     font-size: 20px;  
+}
+
+.em{
+  margin: 10;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    height: 50px;
+    background: linear-gradient(270deg,#c4ce3380, #0a2bc080);
+    display: inline;
+    border-radius: 5px;
+    color: white;  
+     font-size: 20px;  
+}
+
+.um{
+ margin: 10;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    height: 50px;
+    background: linear-gradient(270deg, #ffffff91,#3b97e28a);
+    display: inline;
+    border-radius: 5px;
+    color: white;  
+     font-size: 20px;   
+}
+
+.im{
+margin: 10;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    height: 50px;
+    background: linear-gradient(270deg, #b59be4b4, #878fdbaf,#f15a6cad);
+    display: inline;
+    border-radius: 5px;
+    color: white;    
+     font-size: 20px;  
+}
+
+.om{
+margin: 10;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    height: 50px;
+    background: linear-gradient(270deg, #c6919f9a, #ca146f77, #4800ac93);
+    display: inline;
+    border-radius: 5px;
+    color: white; 
+    font-size: 20px;  
+}
+
+
+
+
+
+
+.block {display:flex;gap:15px;max-width:800px;margin:20px 20px;}
+    .block img {width:200px;height:140px;border-radius:8px;}
+    .text {font-family:sans-serif;line-height:1.5;}
+    @media(max-width:600px){.block{flex-direction:left;}}
+
